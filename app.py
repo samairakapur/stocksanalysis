@@ -105,7 +105,7 @@ with tab1:
 	col8.write("3. Research involvement") 
 	col8.write("Successful investing often requires a good understanding of financial markets, economic factors, and individual securities. Keeping up with research and staying informed about market trends can be time-consuming and challenging for some investors.")
 
-	st.subheader("Useful resources to gain better understanding on stocks + what I learnt') 
+	st.subheader("Useful resources to gain better understanding on stocks + what I learnt") 
 	## i am not 100% sure what I should write here so I will come back to this later
 	
 	st.subheader("About Me")

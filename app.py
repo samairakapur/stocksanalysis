@@ -5,7 +5,6 @@ import seaborn as sns
 import numpy as np
 import plotly.express as px
 from PIL import Image
-import io
 st.set_page_config(layout='wide')
 df = pd.read_csv('data.csv')
 tab1, tab2, tab3 = st.tabs(['Home', 'Statistical Analysis', 'Moving Average Analysis'])
@@ -16,11 +15,7 @@ with tab1:
 	exp = st.expander("Introduction") 
 	exp.write("Hi, welcome to this webiste! It is made by a Grade 11 Student who was interested in understanding more about stocks and understanding about stock trends.") 
 ## i don't know how to add more lines of text because if I copy-paste the line above - won't it just overwrite on what is already written 
-	def main(): 
-		upload_file = st.file_upholder("Upload an image", type=["jpg", "jpeg", "png"])
-		 
-		if uploaded_file is not None: 
-			image = Image.open(uploaded_file)
+	img = Image.open()
 	
 	st.subheader("What is Stock Market Analysis?") 
 	col1, col2 = st.columns(2, gap = "small") 

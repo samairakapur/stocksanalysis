@@ -48,12 +48,20 @@ with tab1:
 	st.subheader("What is Stock Market and Stock Market Analysis?")
 	col3, col4 = st.columns(2, gap = "small") 
 	col4.image(img1)
-	col3.write(" The term stock market refers to several exchanges between buyers and sellers in which the shares of publicly held companies are bought and sold. The stock market consists of components of a free-market economy because they enable democratized access to investor trading and exchange of capital and create efficient price discovery and efficient dealing.")
+	col3.write(" The term stock market refers to several exchanges between buyers and sellers in which the shares of publicly held companies are bought and sold. The stock market consists of components of a free-market economy because they enable democratized access to investor trading and exchange of capital, whilst also enabling the creation of efficient price discovery and efficient dealing.")
+	col3.write("Stock markets provide a secure and regulated environment where market participants can transact in shares and other eligible financial instruments with confidence, with zero to low operational risk. Operating under the defined rules as stated by the regulator, the stock markets act as primary markets and secondary markets.")
+	col3.write("Primary market is where stocks are issued and sold for the first time, typically through processes like initial public offerings (IPOs). Companies use the primary market to raise capital by selling shares directly to investors.")
+	col3.write("Secondary market is where existing stocks, previously issued in the primary market, are bought and sold among investors. It provides a platform for the trading of stocks and other financial instruments after their initial issuance.")
+	col3.write("A company divides itself into several shares and sells some of those shares to the public at a price per share. To facilitate this process, a company needs a marketplace where these shares can be sold and this is achieved by the stock market. Investors will own company shares in the expectation that share value will rise or that they will receive dividend payments or both.")
 	
-
+	col3.write("Stock analysis is a method for investors and traders to make buying and selling decisions. By studying and evaluating past and current data, investors and traders attempt to gain an edge in the markets by making informed decisions.")
+	col3.write("The notion of stock analysis relies on the assumption that available market information can be used to determine the intrinsic value of a stock, especially by leveraging the historical information of the stock")
+	col3.write("the types of stock analysis that exist range from:")
+	col3.write(" - fundamental analysis")
+	col3.write(" - technical analysis")
+	col3.write(" - quantitave analysis") 
+	col3.write("each analysis technique has its benefits and limitations") 
 	
-	
-
 
 with tab2:
 	cmp = st.selectbox('Select the company',('Apple','Starbucks','Microsoft','Cisco','Qualcomm','Meta','Amazon','Tesla','Netflix','Advanced Micro Devices'),key='st1')

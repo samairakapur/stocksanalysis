@@ -78,12 +78,10 @@ with tab1:
 	col5.image(img4)
 	col6.write("Today, there are roughly 80 major stock exchanges worth a combined $110.2 trillion in value. The world’s top two exchanges, the New York Stock Exchange (NYSE) and the Nasdaq, command 42.4% of global market capitalisation.")
 	col6.write("The visualisation on the left shows the largest stock exchanges in the world, with data from the World Federation of Exchanges (WFE).")
-
 	col6.write(" The top seven stocks in the world are known as the 'Magnificent Seven' which are megacap companies focused and capitalizing on tech growth trends including AI, cloud computing, and cutting-edge hardware and software.")
 	col6.write("The table below shows the companies ranked by their market capitalization on November 6, 2023, alongside their 5-year stock performance")
 
 	col6.image(img5)
-
 	col5.image(img6)
 
 	col6.write("Imagine if you had just invested only a thousand dollars in Tesla 5 years ago (in 2018), the value of the investment would be close to ten thousand dollars today!") 

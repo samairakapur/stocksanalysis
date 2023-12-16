@@ -16,15 +16,14 @@ with tab1:
 	exp.write("Hi, welcome to this webiste! It is made by a Grade 11 Student who was interested in understanding more about stocks and understanding about stock trends.") 
 ## i don't know how to add more lines of text because if I copy-paste the line above - won't it just overwrite on what is already written 
 	
-	img = Image.open('stockmarket.jpg')
+	img = Image.open('stocks.jpg')
 	
 	st.subheader("What are stocks?") 
 	col1, col2 = st.columns(2, gap = "small") 
 	col1.image(img)
-	col2.write("Stocks, also known as shares or equities, represent ownership in a company. When you purchase stocks, you become a shareholder and own a portion of the company. Companies issue stocks to raise capital for various purposes, such as expansion, research, and development. There are many technical terms used when describing stocks, however, here are some to keep in mind when researching more about stocks. Stock Market: The stock market is a platform where buyers and sellers trade stocks. Major stock exchanges, such as the New York Stock Exchange (NYSE) or NASDAQ, facilitate these transactions. Stock Price: The price of a stock is determined by supply and demand in the market. Factors such as company performance, industry trends, and economic conditions influence stock prices. Dividends: Some companies distribute a portion of their profits to shareholders in the form of dividends. Dividends provide a steady income stream for investors. Bulls and Bears: A 'bull market' signifies rising stock prices, optimism, and investor confidence. A 'bear market' indicates falling prices, pessimism, and a lack of investor confidence.") 
-
-	
-
+	col2.write("Stocks, also known as shares or equities, represent ownership in a company. When you purchase stocks, you become a shareholder and own a portion of the company. Companies issue stocks to raise capital for various purposes, such as expansion, research, and development.")
+	col2.write("The terminology used for stocks can often sound like a new language. Therefore, if you are new to stocks, below is a list of 15 key terms and concepts I found useful to know when learning more about stocks")
+	col2.write("Equity (in the stock market) refers to the amount of shares owned by a company. As an investor, when you buy the shares of a company, you buy an equivalent degree of ownership in that company. The stock market is where these company shares (equity) are bought and sold from one investor to another. The word ‘stock’ is synonymous with the word 'equity.")
 with tab2:
 	cmp = st.selectbox('Select the company',('Apple','Starbucks','Microsoft','Cisco','Qualcomm','Meta','Amazon','Tesla','Netflix','Advanced Micro Devices'),key='st1')
 	data = df[df['Company'] == cmp]

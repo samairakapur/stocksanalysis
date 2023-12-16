@@ -15,12 +15,12 @@ with tab1:
 	exp = st.expander("Introduction") 
 	exp.write("Hi, welcome to this webiste! It is made by a Grade 11 Student who was interested in understanding more about stocks and understanding about stock trends.") 
 ## i don't know how to add more lines of text because if I copy-paste the line above - won't it just overwrite on what is already written 
-	img = Image.open()
+	
+	img = Image.open('stockmarket.jpg')
 	
 	st.subheader("What is Stock Market Analysis?") 
 	col1, col2 = st.columns(2, gap = "small") 
-	st.image(image)
-	col1.image(image1)
+	col1.image(img)
 	col2.write("Stock Market Analysis is....") 
 	
 

@@ -9,11 +9,20 @@ df = pd.read_csv('data.csv')
 tab1, tab2, tab3 = st.tabs(['Home', 'Statistical Analysis', 'Moving Average Analysis'])
 
 with tab1:
+	_, col2, _ = st.beta_columns([1, 2, 1])
+
+	with col2: 
 	st.header("Stock Market Analysis")
-	
-	st.subheader("What is Stock Market Analysis?") 
+
 	exp = st.expander("Introduction") 
 	exp.write("Hi, welcome to this webiste! It is made by a Grade 11 Student who was interested in understanding more about stocks and understanding about stock trends.") 
+## i don't know how to add more lines of text because if I copy-paste the line above - won't it just overwrite on what is already written 
+
+	st.subheader("What is Stock Market Analysis?") 
+	col1, col2 = st.columns(2, gap = "small") 
+	col1.image('stockmarket.jpg')
+	col2.write("Stock Market Analysis is....") 
+	
 
 with tab2:
 	cmp = st.selectbox('Select the company',('Apple','Starbucks','Microsoft','Cisco','Qualcomm','Meta','Amazon','Tesla','Netflix','Advanced Micro Devices'),key='st1')

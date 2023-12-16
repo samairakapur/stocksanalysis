@@ -9,7 +9,13 @@ df = pd.read_csv('data.csv')
 tab1, tab2, tab3 = st.tabs(['Home', 'Statistical Analysis', 'Moving Average Analysis'])
 
 with tab1:
-	st.subheader("my project")
+	st.header("Stock Market Analysis")
+	
+	st.subheader("What is Stock Market Analysis?") 
+	exp = st.expander("Introduction") 
+	exp.write("Hi, welcome to this webiste! It is made by a Grade 11 Student who was interested in understanding more about stocks and understanding about stock trends. 
+		  At the moment, the website includes stock data and trends of Top 10 companies in the world, using interactive features such as box plots and correlation matrix's 
+    		  to explain the correlation between the stocks presented. In the future, I aim to add more features......") 
 
 with tab2:
 	cmp = st.selectbox('Select the company',('Apple','Starbucks','Microsoft','Cisco','Qualcomm','Meta','Amazon','Tesla','Netflix','Advanced Micro Devices'),key='st1')

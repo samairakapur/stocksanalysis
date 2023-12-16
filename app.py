@@ -18,10 +18,11 @@ with tab1:
 	
 	img = Image.open('stockmarket.jpg')
 	
-	st.subheader("What is Stock Market Analysis?") 
+	st.subheader("What are stocks?") 
 	col1, col2 = st.columns(2, gap = "small") 
 	col1.image(img)
-	col2.write("Stock Market Analysis is....") 
+	col2.write("Stocks, also known as shares or equities, represent ownership in a company. When you purchase stocks, you become a shareholder and own a portion of the company. Companies issue stocks to raise capital for various purposes, such as expansion, research, and development. There are many technical terms used when describing stocks, however, here are some to keep in mind when researching more about stocks. Stock Market: The stock market is a platform where buyers and sellers trade stocks. Major stock exchanges, such as the New York Stock Exchange (NYSE) or NASDAQ, facilitate these transactions. Stock Price: The price of a stock is determined by supply and demand in the market. Factors such as company performance, industry trends, and economic conditions influence stock prices. Dividends: Some companies distribute a portion of their profits to shareholders in the form of dividends. Dividends provide a steady income stream for investors. Bulls and Bears: A 'bull market' signifies rising stock prices, optimism, and investor confidence. A 'bear market' indicates falling prices, pessimism, and a lack of investor confidence.") 
+
 	
 
 with tab2:

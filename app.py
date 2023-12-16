@@ -28,7 +28,9 @@ with tab1:
 	col2.write("Equity (in the stock market) refers to the amount of shares owned by a company. As an investor, when you buy the shares of a company, you buy an equivalent degree of ownership in that company. The stock market is where these company shares (equity) are bought and sold from one investor to another. The word ‘stock’ is synonymous with the word 'equity.")
 	col2.write("2. Bull Market / Bear Market")
 	col2.write("These two terms are indicators of the current trend that the stock market is experiencing at a given time. The bull market refers to a period in which the prices of stocks are increasing and therefore, the market is on an upward trend. A bear market refers to a period in which the prices of stocks are falling and therefore, the market is on a downward")
+
 	col1.image(img2)
+	
 	col2.write("3. Bid / Ask")
 	col2.write("The ask price or an offer refers to the lowest amount of money that the seller of a stock is willing to accept for a share of that stock whilst a bid refers to the highest amount of money that a potential buyer for a stock is willing to pay for a share of that stock. If there are multiple buyers for a stock, a bid taken between buyers ends when one buyer places a bid that the other buyers cannot or do not wish to match.")
 	col2.write("4. Exchange")
@@ -54,7 +56,9 @@ with tab1:
 	col3.write(" The term stock market refers to several exchanges between buyers and sellers in which the shares of publicly held companies are bought and sold. The stock market consists of components of a free-market economy because they enable democratized access to investor trading and exchange of capital, whilst also enabling the creation of efficient price discovery and efficient dealing.")
 	col3.write("Stock markets provide a secure and regulated environment where market participants can transact in shares and other eligible financial instruments with confidence, with zero to low operational risk. Operating under the defined rules as stated by the regulator, the stock markets act as primary markets and secondary markets.")
 	col3.write("Primary market is where stocks are issued and sold for the first time, typically through processes like initial public offerings (IPOs). Companies use the primary market to raise capital by selling shares directly to investors.")
+	
 	col4.image(img3)
+	
 	col3.write("Secondary market is where existing stocks, previously issued in the primary market, are bought and sold among investors. It provides a platform for the trading of stocks and other financial instruments after their initial issuance.")
 	col3.write("A company divides itself into several shares and sells some of those shares to the public at a price per share. To facilitate this process, a company needs a marketplace where these shares can be sold and this is achieved by the stock market. Investors will own company shares in the expectation that share value will rise or that they will receive dividend payments or both.")
 	
@@ -64,7 +68,7 @@ with tab1:
 	col3.write(" - fundamental analysis")
 	col3.write(" - technical analysis")
 	col3.write(" - quantitave analysis") 
-	col3.write("each analysis technique has its benefits and limitations") 
+	col3.write("Each analysis technique has its benefits and limitations") 
 
 	st.subheader("Top Indices and Stock Markets in the world") 
 	

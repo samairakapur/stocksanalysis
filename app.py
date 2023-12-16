@@ -23,7 +23,7 @@ with tab1:
 	col1, col2 = st.columns(2, gap = "small") 
 	col1.image(img)
 	col2.write("Stocks, also known as shares or equities, represent ownership in a company. When you purchase stocks, you become a shareholder and own a portion of the company. Companies issue stocks to raise capital for various purposes, such as expansion, research, and development.")
-	col2.write("The terminology used for stocks can often sound like a new language. Therefore, if you are new to stocks, below is a list of 15 key terms and concepts I found useful to know when learning more about stocks")
+	col2.write("The terminology used for stocks can often sound like a new language. Therefore, if you are new to stocks, below is a list of 10 key terms and concepts I found useful to know when learning more about stocks")
 	col2.write("1. Equity")
 	col2.write("Equity (in the stock market) refers to the amount of shares owned by a company. As an investor, when you buy the shares of a company, you buy an equivalent degree of ownership in that company. The stock market is where these company shares (equity) are bought and sold from one investor to another. The word ‘stock’ is synonymous with the word 'equity.")
 	col2.write("2. Bull Market / Bear Market")
@@ -70,7 +70,17 @@ with tab1:
 	col3.write(" - quantitave analysis") 
 	col3.write("Each analysis technique has its benefits and limitations") 
 
+	img4 = Image.open('topstocks.jpeg')
 	st.subheader("Top Indices and Stock Markets in the world") 
+	col5, col6 = st.columns(2, gap = "small") 
+	col5.image(img4)
+	col6.write("Today, there are roughly 80 major stock exchanges worth a combined $110.2 trillion in value. The world’s top two exchanges, the New York Stock Exchange (NYSE) and the Nasdaq, command 42.4% of global market capitalisation.")
+	col6.write("The visualisation on the left shows the largest stock exchanges in the world, with data from the World Federation of Exchanges (WFE).")
+
+	col6.write(" The top seven stocks in the world are known as the 'Magnificent Seven' which are megacap companies focused and capitalizing on tech growth trends including AI, cloud computing, and cutting-edge hardware and software.")
+	col6.write("The table below shows the companies ranked by their market capitalization on November 6, 2023, alongside their 5-year stock performance")
+	## with gurvansh sir's help, learn how to make a table using df (I will try myself and input it here)
+	
 	
 
 with tab2:

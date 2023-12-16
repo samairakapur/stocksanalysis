@@ -9,7 +9,7 @@ df = pd.read_csv('data.csv')
 tab1, tab2, tab3 = st.tabs(['Home', 'Statistical Analysis', 'Moving Average Analysis'])
 
 with tab1:
-_, col2, _ = st.beta_columns([1, 2, 1])
+	_, col2, _ = st.beta_columns([1, 2, 1])
 
 with col2: 
 	st.title("Stock Market Analysis")

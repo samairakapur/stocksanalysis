@@ -106,9 +106,13 @@ with tab1:
 	col8.write("Successful investing often requires a good understanding of financial markets, economic factors, and individual securities. Keeping up with research and staying informed about market trends can be time-consuming and challenging for some investors.")
 
 	st.subheader("Useful resources to gain better understanding on stocks + what I learnt') 
-
+	## i am not 100% sure what I should write here so I will come back to this later
+	
 	st.subheader("About Me")
+	img7 = Image.open('aboutme.jpg')
 	col9, col10 = st.columns(2, gap = "small") 
+	col10.image(img7)
+	col9.write("this is where I will write information about myself")
 
 with tab2:
 	cmp = st.selectbox('Select the company',('Apple','Starbucks','Microsoft','Cisco','Qualcomm','Meta','Amazon','Tesla','Netflix','Advanced Micro Devices'),key='st1')

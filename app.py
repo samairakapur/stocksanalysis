@@ -71,6 +71,8 @@ with tab1:
 	col3.write("Each analysis technique has its benefits and limitations") 
 
 	img4 = Image.open('topstocks.jpeg')
+	img5 = Image.open('tableinfo.jpg')
+	img6 = Image.open('topstocks.jpeg')
 	st.subheader("Top Indices and Stock Markets in the world") 
 	col5, col6 = st.columns(2, gap = "small") 
 	col5.image(img4)
@@ -80,6 +82,14 @@ with tab1:
 	col6.write(" The top seven stocks in the world are known as the 'Magnificent Seven' which are megacap companies focused and capitalizing on tech growth trends including AI, cloud computing, and cutting-edge hardware and software.")
 	col6.write("The table below shows the companies ranked by their market capitalization on November 6, 2023, alongside their 5-year stock performance")
 
+	col6.image(img5)
+
+	col5.image(img6)
+
+	col6.write("Imagine if you had just invested only a thousand dollars in Tesla 5 years ago (in 2018), the value of the investment would be close to ten thousand dollars today!") 
+	col6.write("This directly leads me to my next point regarding the importance of investing") 
+
+	st.subheader("Why should you start investing in stocks?")
 	
 
 with tab2:

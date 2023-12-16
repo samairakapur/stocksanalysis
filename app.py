@@ -14,7 +14,7 @@ with tab1:
 
 	exp = st.expander("Introduction") 
 	exp.write("Hi, welcome to this webiste! It is made by a Grade 11 Student who was interested in understanding more about stocks and understanding about stock trends.") 
-## i don't know how to add more lines of text because if I copy-paste the line above - won't it just overwrite on what is already written 
+	## wasn't sure what to write so left it blank for now - will fix it in the end
 	
 	img = Image.open('stocks.jpeg')
 	img2 = Image.open('keyterms.jpg')
@@ -79,8 +79,7 @@ with tab1:
 
 	col6.write(" The top seven stocks in the world are known as the 'Magnificent Seven' which are megacap companies focused and capitalizing on tech growth trends including AI, cloud computing, and cutting-edge hardware and software.")
 	col6.write("The table below shows the companies ranked by their market capitalization on November 6, 2023, alongside their 5-year stock performance")
-	## with gurvansh sir's help, learn how to make a table using df (I will try myself and input it here)
-	
+
 	
 
 with tab2:

@@ -23,6 +23,7 @@ with tab1:
 	col1.image(img)
 	col2.write("Stocks, also known as shares or equities, represent ownership in a company. When you purchase stocks, you become a shareholder and own a portion of the company. Companies issue stocks to raise capital for various purposes, such as expansion, research, and development.")
 	col2.write("The terminology used for stocks can often sound like a new language. Therefore, if you are new to stocks, below is a list of 15 key terms and concepts I found useful to know when learning more about stocks")
+	col2.write("1. Equity")
 	col2.write("Equity (in the stock market) refers to the amount of shares owned by a company. As an investor, when you buy the shares of a company, you buy an equivalent degree of ownership in that company. The stock market is where these company shares (equity) are bought and sold from one investor to another. The word ‘stock’ is synonymous with the word 'equity.")
 with tab2:
 	cmp = st.selectbox('Select the company',('Apple','Starbucks','Microsoft','Cisco','Qualcomm','Meta','Amazon','Tesla','Netflix','Advanced Micro Devices'),key='st1')

@@ -16,7 +16,7 @@ with tab1:
 	exp.write("Hi, welcome to this webiste! It is made by a Grade 11 Student who was interested in understanding more about stocks and understanding about stock trends.") 
 ## i don't know how to add more lines of text because if I copy-paste the line above - won't it just overwrite on what is already written 
 	
-	img = Image.open('stocks.jpg')
+	img = Image.open('stocks.jpeg')
 	
 	st.subheader("What are stocks?") 
 	col1, col2 = st.columns(2, gap = "small") 

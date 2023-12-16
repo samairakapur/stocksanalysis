@@ -9,10 +9,7 @@ df = pd.read_csv('data.csv')
 tab1, tab2, tab3 = st.tabs(['Home', 'Statistical Analysis', 'Moving Average Analysis'])
 
 with tab1:
-	_, col2, _ = st.beta_columns([1, 2, 1])
-
-with col2: 
-	st.title("Stock Market Analysis")
+	st.header("Stock Market Analysis")
 
 	exp = st.expander("Introduction") 
 	exp.write("Hi, welcome to this webiste! It is made by a Grade 11 Student who was interested in understanding more about stocks and understanding about stock trends.") 

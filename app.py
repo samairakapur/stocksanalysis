@@ -48,6 +48,8 @@ with tab1:
 	st.subheader("What is Stock Market and Stock Market Analysis?")
 	col3, col4 = st.columns(2, gap = "small") 
 	col4.image(img1)
+	col3.write(" The term stock market refers to several exchanges between buyers and sellers in which the shares of publicly held companies are bought and sold. The stock market consists of components of a free-market economy because they enable democratized access to investor trading and exchange of capital and create efficient price discovery and efficient dealing.")
+	
 
 	
 	

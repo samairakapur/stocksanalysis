@@ -28,6 +28,7 @@ with tab1:
 
 	st.image(img2)
 	with st.expander("Stocks Terminology"):
+		st.write("1. Equity") 
 		st.write("Equity (in the stock market) refers to the amount of shares owned by a company. As an investor, when you buy the shares of a company, you buy an equivalent degree of ownership in that company. The stock market is where these company shares (equity) are bought and sold from one investor to another. The word ‘stock’ is synonymous with the word 'equity.")
 		st.write("2. Bull Market / Bear Market")
 		st.write("These two terms are indicators of the current trend that the stock market is experiencing at a given time. The bull market refers to a period in which the prices of stocks are increasing and therefore, the market is on an upward trend. A bear market refers to a period in which the prices of stocks are falling and therefore, the market is on a downward")
@@ -77,16 +78,15 @@ with tab1:
 	st.subheader("Top Indices and Stock Markets in the world") 
 	col5, col6 = st.columns(2, gap = "small") 
 	col5.image(img4)
-	col6.write("Today, there are roughly 80 major stock exchanges worth a combined $110.2 trillion in value. The world’s top two exchanges, the New York Stock Exchange (NYSE) and the Nasdaq, command 42.4% of global market capitalisation.")
-	col6.write("The visualisation on the left shows the largest stock exchanges in the world, with data from the World Federation of Exchanges (WFE).")
-	col6.write(" The top seven stocks in the world are known as the 'Magnificent Seven' (shown in the iage below) which are megacap companies focused and capitalizing on tech growth trends including AI, cloud computing, and cutting-edge hardware and software.")
-	col6.write("The table below shows the companies ranked by their market capitalization on November 6, 2023, alongside their 5-year stock performance")
-	col6.image(img5)
+	col6.image(img6)
 
-	col5.image(img6)
-	
-	col6.write("Imagine if you had just invested only a thousand dollars in Tesla 5 years ago (in 2018), the value of the investment would be close to ten thousand dollars today!") 
-	col6.write("This directly leads me to my next point regarding the importance of investing") 
+	st.image(img5)
+	with st.container():
+		st.write("Today, there are roughly 80 major stock exchanges worth a combined $110.2 trillion in value. The world’s top two exchanges, the New York Stock Exchange (NYSE) and the Nasdaq, command 42.4% of global market capitalisation.")
+		st.write("The visualisation above shows the largest stock exchanges in the world, with data from the World Federation of Exchanges (WFE).")
+		st.write(" The top seven stocks in the world are known as the 'Magnificent Seven' (shown in the visual above) are megacap companies focused and capitalizing on tech growth trends including AI, cloud computing, and cutting-edge hardware and software.")
+		st.write("The table above ranks the 'Mega Comapnies' by their market capitalization on November 6, 2023, alongside their 5-year stock performance")
+		st.write("Imagine if you had just invested only a thousand dollars in Tesla 5 years ago (in 2018), the value of the investment would be close to ten thousand dollars today!") 
 
 	st.subheader("Why should you start investing in stocks?")
 	col7, col8 = st.columns(2, gap = "small") 

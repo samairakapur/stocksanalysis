@@ -13,8 +13,8 @@ with tab1:
 	st.header("Stock Market Analysis")
 
 	st.subheader("Introduction") 
-	with st.container():
-   		st.write("Hi, welcome to this website! It is written by a Grade 11 student who was interested in learnig more about stocks!")
+	container = st.container(border=True)
+	container.write("Hi, welcome to this website! It is written by a Grade 11 student who was interested in learnig more about stocks!")
 	
 	img = Image.open('stocks.jpeg')
 	
@@ -24,9 +24,10 @@ with tab1:
 	col2.write("Stocks, also known as shares or equities, represent ownership in a company. When you purchase stocks, you become a shareholder and own a portion of the company. Companies issue stocks to raise capital for various purposes, such as expansion, research, and development.")
 	col2.write("The terminology used for stocks can often sound like a new language. Therefore, if you are new to stocks, below is a list of 10 key terms and concepts I found useful to know when learning more about stocks")
 
-	img2 = Image.open('keyterms.jpg')
+	
 
 	with st.expander("Stocks Terminology"):
+		img2 = Image.open('keyterms.jpg')
 		st.image(img2)
 		st.write("1. Equity") 
 		st.write("Equity (in the stock market) refers to the amount of shares owned by a company. As an investor, when you buy the shares of a company, you buy an equivalent degree of ownership in that company. The stock market is where these company shares (equity) are bought and sold from one investor to another. The word ‘stock’ is synonymous with the word 'equity.")
@@ -82,17 +83,17 @@ with tab1:
 	col6.image(img6)
 
 	st.image(img5)
-	with st.container():
-		st.write("Today, there are roughly 80 major stock exchanges worth a combined $110.2 trillion in value. The world’s top two exchanges, the New York Stock Exchange (NYSE) and the Nasdaq, command 42.4% of global market capitalisation.")
-		st.write("The visualisation above shows the largest stock exchanges in the world, with data from the World Federation of Exchanges (WFE).")
-		st.write(" The top seven stocks in the world are known as the 'Magnificent Seven' (shown in the visual above) are megacap companies focused and capitalizing on tech growth trends including AI, cloud computing, and cutting-edge hardware and software.")
-		st.write("The table above ranks the 'Mega Comapnies' by their market capitalization on November 6, 2023, alongside their 5-year stock performance")
-		st.write("Imagine if you had just invested only a thousand dollars in Tesla 5 years ago (in 2018), the value of the investment would be close to ten thousand dollars today!") 
+	container1 = st.container(border=True)
+	container1.write("Today, there are roughly 80 major stock exchanges worth a combined $110.2 trillion in value. The world’s top two exchanges, the New York Stock Exchange (NYSE) and the Nasdaq, command 42.4% of global market capitalisation.")
+	container1.write("The visualisation above shows the largest stock exchanges in the world, with data from the World Federation of Exchanges (WFE).")
+	container1.write(" The top seven stocks in the world are known as the 'Magnificent Seven' (shown in the visual above) are megacap companies focused and capitalizing on tech growth trends including AI, cloud computing, and cutting-edge hardware and software.")
+	container1.write("The table above ranks the 'Mega Comapnies' by their market capitalization on November 6, 2023, alongside their 5-year stock performance")
+	container1.write("Imagine if you had just invested only a thousand dollars in Tesla 5 years ago (in 2018), the value of the investment would be close to ten thousand dollars today!") 
 
 	st.subheader("Why should you start investing in stocks?")
 	col7, col8 = st.columns(2, gap = "small") 
-	with st.container():
-		st.write("3 Grand Benefits of Investing in Stocks Include:")
+	container2 = st.container(border=True)
+	container2.write("3 Grand Benefits of Investing in Stocks Include:")
 	col7.write("1. Ability to achieve financial goals") 
 	col7.write("Investing early allows individual's to harness the power of compounding Compounding refers to the snowball effect where your investment returns generate additional returns over time. The earlier you start, the more time your money has to compound, potentially leading to significant long-term gains. Therefore, investing early is a key trategy for achieving financial goals such as buying a home, funding education, or enjoying a comfortable retirement. The growth potential of investments can assist in reaching these milestones more effectively than relying solely on savings.") 
 	col7.write("2. Ability to protect family from inflation")
@@ -100,8 +101,8 @@ with tab1:
 	col7.write("3. Earn a passive income") 
 	col7.write("Many companies pay dividends, or a portion of their profits, to investors. The majority make quarterly dividend payments, although some companies pay monthly dividends. Dividend income can help supplement an investor's paycheck or retirement income.")
 	
-	with st.container():
-		st.write("Risks of investing in stock that you should keep at the back of your mind")
+	container3 = st.container(border=True)
+	container3.write("Risks of investing in stock that you should keep at the back of your mind")
 	col8.write("1. Lack of guarenteed returns") 
 	col8.write("Unlike savings accounts or certain fixed-income investments, the returns on many investments are not guaranteed. Market conditions and the performance of individual assets can vary, leading to uncertainty in returns.")
 	col8.write("2. Market Volatility") 

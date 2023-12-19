@@ -90,15 +90,17 @@ with tab1:
 
 	st.subheader("Why should you start investing in stocks?")
 	col7, col8 = st.columns(2, gap = "small") 
-	col7.write(" 3 Grand Benefits of Investing in Stocks Include:")
+	with st.container():
+		st.write("3 Grand Benefits of Investing in Stocks Include:")
 	col7.write("1. Ability to achieve financial goals") 
 	col7.write("Investing early allows individual's to harness the power of compounding Compounding refers to the snowball effect where your investment returns generate additional returns over time. The earlier you start, the more time your money has to compound, potentially leading to significant long-term gains. Therefore, investing early is a key trategy for achieving financial goals such as buying a home, funding education, or enjoying a comfortable retirement. The growth potential of investments can assist in reaching these milestones more effectively than relying solely on savings.") 
 	col7.write("2. Ability to protect family from inflation")
 	col7.write("Stock market's returns often significantly outpace the rate of inflation. For example, the long-term inflation rate has run about 3.1% annually since 1913. That compares to a double-digit annual return from stocks. Stocks have been a good way to hedge against inflation.")
 	col7.write("3. Earn a passive income") 
 	col7.write("Many companies pay dividends, or a portion of their profits, to investors. The majority make quarterly dividend payments, although some companies pay monthly dividends. Dividend income can help supplement an investor's paycheck or retirement income.")
-
-	col8.write(" Risks of investing in stock that you should keep at the back of your mind") 
+	
+	with st.container():
+		st.write("Risks of investing in stock that you should keep at the back of your mind")
 	col8.write("1. Lack of guarenteed returns") 
 	col8.write("Unlike savings accounts or certain fixed-income investments, the returns on many investments are not guaranteed. Market conditions and the performance of individual assets can vary, leading to uncertainty in returns.")
 	col8.write("2. Market Volatility") 

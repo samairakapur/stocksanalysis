@@ -33,8 +33,8 @@ with tab1:
 	
 	col2.write("3. Bid / Ask")
 	col2.write("The ask price or an offer refers to the lowest amount of money that the seller of a stock is willing to accept for a share of that stock whilst a bid refers to the highest amount of money that a potential buyer for a stock is willing to pay for a share of that stock. If there are multiple buyers for a stock, a bid taken between buyers ends when one buyer places a bid that the other buyers cannot or do not wish to match.")
-	col2.write("4. Exchange")
-	col2.write("An exchange refers to a place or an electronic market where various securities are traded. i.e. one of the many stock exchanges in the country or worldwide where shares of stocks are bought and sold.")
+	st.write("4. Exchange")
+	st.write("An exchange refers to a place or an electronic market where various securities are traded. i.e. one of the many stock exchanges in the country or worldwide where shares of stocks are bought and sold.")
 	col2.write("5. Volatility") 
 	col2.write("Volatility refers to the rate of price fluctuations of a share. A highly volatile stock experiences daily up and down movements in its price. Some traders profit off the risks involved in highly volatile stocks, while others prefer investing in less volatile stocks for the long run.")
 	col2.write("6. Blue-Chip Stocks")

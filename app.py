@@ -126,7 +126,7 @@ with tab1:
 
 	st.markdown("[![Click me](app/static/invest.png)](https://shorturl.at/bilqt)")
 
-	st.subheader("Which stocks to buy + Where") 
+	st.subheader("Which stocks to buy and Where") 
 	container3 = st.container(border=True)
 	container3.write("What stock has minimal time requirements, is low stake and yields high returns?") 
 	container3.write("If you are an individual who wants to invest but doesn't have the time to constantly keep track of the stock market, then I recommend you to invest in Exchange-Traded-Funds (ETFs)")
@@ -138,6 +138,7 @@ with tab1:
 	container3.write("- tax efficiency") 
 
 	container4 = st.container(border=True)
+	
 	container4.write("Where to start investing?") 
 	container4.write("You should first start by checking the services offered by your bank. Some banks, like DBS, enable individuals to create their own portfolio and start investing from the app itself, which makes investing very easy") 
 	container4.write("If this service isn't available through your bank, then I recommend searching for online brokerage platforms") 
@@ -151,6 +152,7 @@ with tab1:
 	container4.write("Do you have access to the market data in order to make smart investment opportunities?") 
 
 	container5 = st.container(border=True)
+	
 	container5.write("There are hundreds of online brokerage websites in the world, however, here are a few that I recommend") 
 	conainer5.write("1. Fidelity") 
 	container5.write("2. E*TRADE") 

@@ -14,7 +14,9 @@ with tab1:
 
 	st.subheader("Introduction") 
 	container = st.container(border=True)
-	container.write("Hi, welcome to this website! It is written by a Grade 11 student who was interested in learnig more about stocks!")
+	container.write("Everywhere you go, whether it is Tiktok, Youtube or Instagram, everyone seems to be obsessed with stocks. I, myself, as a grade 11 student wanted to understand the hype around stocks, which is why I created this website, in order to enable individuals who don't even have the slightest idea of stocks, to understand their importance and even invest so that you can easily retired by your 40!")
+	container.write("This website has 3 tabs: Home, Statistical Analysis and Moving Average Analysis. The contents of the home page include all the details about stocks, how and why you should invest. The second tab contains a stock volume trend, statistical anaylsis of the stock price and a co-relation matrix. The last tab contains a moving-average anaylsis that enables individuals to determine the future of the market by making use of historical data") 
+	container.write("The differentatior of this website is the co-relation matrix which is built by using a decade of historical data to determine the nature of certain stocks and their relationship. The correlation matrix can act as one of the key differentiators for investors to boost their profit") 
 	
 	img = Image.open('stocks.jpeg')
 	
@@ -177,6 +179,8 @@ with tab2:
 	fig = px.box(d1)
 	col[0].subheader('Statitical Analysis of Stock Price')
 	col[1].plotly_chart(fig)
+	container8 = st.container(border=True)
+	contain8.write("The graph displayed on the right shows certain key charatersitics of a certain stock, such sa its median price, inter-quartile price, etc. This can help investor's determine whether they should buy a stock at the price in the current market or wait until the price gets lower in order to achieve their maximum profitability")
 	st.subheader('Co-relation Matrix')
 	temp_corr_df = df[['Company', 'Close/Last', 'Date']]
 	stocks = {}

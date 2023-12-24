@@ -148,7 +148,7 @@ with tab1:
 	container4.write("Do they carry all the investment products you want (like ETFs, Apple Stocks, etc)?")
 	container4.write("2. What does the fee schedule look like, and what commissions will you owe on your trades?") 
 	container4.write("3. Do you want access to a live broker if you have questions?") 
-	containr4.write("4. What educational opportunities can you access?") 
+	container4.write("4. What educational opportunities can you access?") 
 	container4.write("Do you have access to the market data in order to make smart investment opportunities?") 
 
 	container5 = st.container(border=True)

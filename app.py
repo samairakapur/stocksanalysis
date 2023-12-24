@@ -109,8 +109,8 @@ with tab1:
 	col8.write("Successful investing often requires a good understanding of financial markets, economic factors, and individual securities. Keeping up with research and staying informed about market trends can be time-consuming and challenging for some investors.")
 
 	container6 = st.container(border=True)
-	container6.write("Many people are often setback by investing in stocks because of 2 things:") 
- 	container6.write("1.They don't know how/where to invest")
+	container6.write("Many people are often setback by investing in stocks because of 2 things:")
+	container6.write("1.They don't know how/where to invest")
 	container6.write("AND/OR")
 	container6.write("2.They don't have the time to constantly keep a track of their stock indicies") 
 	container6.write("These are the 2 most prevalent valid problems that prevent the majoirty from investing, which is something that I aim to address later in the website") 

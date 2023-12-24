@@ -108,8 +108,12 @@ with tab1:
 	col8.write("3. Research involvement") 
 	col8.write("Successful investing often requires a good understanding of financial markets, economic factors, and individual securities. Keeping up with research and staying informed about market trends can be time-consuming and challenging for some investors.")
 
-	st.subheader("Useful resources to gain better understanding on stocks + what I learnt") 
-	st.write("click the images below to get re-directed to articles / websites that helped me learn more about stocks") 
+	st.write("Many people are often setback by investing in stocks because of 2 things: either they don't know how/where to invest AND/OR they don't have the time to constantly keep a track of their stock indicies") 
+	st.write("These are 2 problems that I aim to address later in the website") 
+
+	st.subheader("Useful resources for stock learning") 
+	container2 = st.container(border=True)
+	container2.write("Click the images below to get re-directed to articles / websites that helped me learn more about stocks")
 	
 	st.markdown("[![Click me](app/static/medium.png)](https://shorturl.at/cdrxX)")
 
@@ -121,12 +125,40 @@ with tab1:
 
 
 	st.markdown("[![Click me](app/static/invest.png)](https://shorturl.at/bilqt)")
-	
-	st.subheader("About Me")
-	img7 = Image.open('aboutme.jpg')
-	col9, col10 = st.columns(2, gap = "small") 
-	col10.image(img7)
-	col9.write("this is where I will write information about myself")
+
+	st.subheader("Which stocks to buy + Where") 
+	container3 = st.container(border=True)
+	container3.write("What stock has minimal time requirements, is low stake and yields high returns?") 
+	container3.write("If you are an individual who wants to invest but doesn't have the time to constantly keep track of the stock market, then I recommend you to invest in Exchange-Traded-Funds (ETFs)")
+	container3.write("ETFs are funds that trade on exchanges, generally tracking a specific index. When you invest in an ETF, you get a bundle of assets you can buy and sell during market hours—potentially lowering your risk and exposure, while helping to diversify your portfolio.")
+	container3.write("The benefits of ETFs include:") 
+	container3.write("- diversification") 
+	container3.write("- lower costs") 
+	container3.write("- trading flexibility") 
+	container3.write("- tax efficiency") 
+
+	container4 = st.container(border=True)
+	container4.write("Where to start investing?") 
+	container4.write("You should first start by checking the services offered by your bank. Some banks, like DBS, enable individuals to create their own portfolio and start investing from the app itself, which makes investing very easy") 
+	container4.write("If this service isn't available through your bank, then I recommend searching for online brokerage platforms") 
+	container4.write("An online brokerage is a platform that allows you to directly manage the buying and selling of your stocks and investment products. Rather than relying on a conventional broker to take action for you, you can use the online brokerage to buy and sell various types of investment products, including stocks, mutual funds, and ETFs. You can also monitor the stock activity and the success of your portfolio directly through the online platform.")
+	container4.write("All brokerage companies are different as they all offer different products, services, pricing for investing/trading on the website. Therefore, here are some considerations to keep in mind when looking for the brokerage platform for you:") 
+	container4.write("1. The product offerings for this particular company") 
+	container4.write("Do they carry all the investment products you want (like ETFs, Apple Stocks, etc)?")
+	container4.write("2. What does the fee schedule look like, and what commissions will you owe on your trades?") 
+	container4.write("3. Do you want access to a live broker if you have questions?") 
+	containr4.write("4. What educational opportunities can you access?") 
+	container4.write("Do you have access to the market data in order to make smart investment opportunities?") 
+
+	container5 = st.container(border=True)
+	container5.write("There are hundreds of online brokerage websites in the world, however, here are a few that I recommend") 
+	conainer5.write("1. Fidelity") 
+	container5.write("2. E*TRADE") 
+	container5.write("3. Interactive Brokers IBKR Lite")
+	container5.write("4. Charles Schwab") 
+	container5.write("5. J.P. Morgan Wealth Management") 
+	container5.write("Hopefully now you have a better understanding of investing and just how easy it truly is.") 
+	container5.write("Happy Investing!")
 
 with tab2:
 	cmp = st.selectbox('Select the company',('Apple','Starbucks','Microsoft','Cisco','Qualcomm','Meta','Amazon','Tesla','Netflix','Advanced Micro Devices'),key='st1')

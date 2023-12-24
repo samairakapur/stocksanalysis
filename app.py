@@ -110,7 +110,7 @@ with tab1:
 
 	st.subheader("Useful resources to gain better understanding on stocks + what I learnt") 
 	with st.echo():
-  	  st.markdown("[![Click me](https://samairastockanalysis.streamlit.app/static/medium.png)](https://medium.com/@asady/how-to-analyze-stocks-an-introductory-guide-ed9266354c76)")
+		st.markdown("[![Click me](app/static/medium.png)](https://shorturl.at/cdrxX)")
 	
 	st.subheader("About Me")
 	img7 = Image.open('aboutme.jpg')

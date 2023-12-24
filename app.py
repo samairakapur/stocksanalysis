@@ -186,7 +186,8 @@ with tab2:
 	st.pyplot(fig)
 
 	container7 = st.container(border=True)
-	container7.write("A corerlation matrix can be seen above which shows the relationship between a few stocks. It can be observed that each correlation is positive and between 0 and 1, which indicates that if the price of one stock increases, then the price of the other stock also increases, vise versa. Therefore, a correlation matrix makes it easier for an investor to judge which stock(s) to invest or sell in order to make the most profit.") 
+	container7.write("The correlation matrix shown above displays the correlation between a few stocks. It can be observed that each correlation is positive and between 0 and 1, which indicates that if the price of one stock increases, then the price of the other stock also increases, or if the price of one stock decrease, then so will the price of another stock. The degree to which the price of a stock is affected by can be seen by the correlation number. The closer the correlation number is to 1, the more closely related are the 2 stocks."
+	container7.write("Therefore, a correlation matrix makes it easier for an investor to judge which stock(s) to invest or sell in order to make the most profit.") 
 	container7.write("For example, if the stock market price of Apple goes down, the stock market price of Microsoft will also go down because they have a 0.98 correlation. However, if the stock market predicts that within the next week the market price of an apple stock will skyrocket, the same will also occur for Microsoft. Hence, with the knowledge of the correlation between these 2 stocks, the individaul can make more than double the profits")
 	
 with tab3:

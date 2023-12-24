@@ -110,9 +110,16 @@ with tab1:
 
 	st.subheader("Useful resources to gain better understanding on stocks + what I learnt") 
 	with st.echo():
-		st.title("MEDIUM") 
-		
 		st.markdown("[![Click me](app/static/medium.png)](https://shorturl.at/cdrxX)")
+
+	with st.echo():
+		st.markdown("[![Click me](app/static/fool.png)](https://shorturl.at/iRX47)")
+
+	with st.echo():
+		st.markdown("[![Click me](app/static/capitalist.png)](https://shorturl.at/nprxI)")
+
+	with st.echo():
+		st.markdown("[![Click me](app/static/invest.png)](https://shorturl.at/bilqt)")
 	
 	st.subheader("About Me")
 	img7 = Image.open('aboutme.jpg')

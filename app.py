@@ -183,7 +183,6 @@ with tab2:
 	fig = px.box(d1)
 	col[0].subheader('Statitical Analysis of Stock Price')
 	col[1].plotly_chart(fig)
-	
 	container8 = st.container(border=True)
 	containter8.write("The graph displayed on the right shows certain key charatersitics of a certain stock, such sa its median price, inter-quartile price, etc. This can help investor's determine whether they should buy a stock at the price in the current market or wait until the price gets lower in order to achieve their maximum profitability")
 	

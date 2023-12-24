@@ -109,17 +109,18 @@ with tab1:
 	col8.write("Successful investing often requires a good understanding of financial markets, economic factors, and individual securities. Keeping up with research and staying informed about market trends can be time-consuming and challenging for some investors.")
 
 	st.subheader("Useful resources to gain better understanding on stocks + what I learnt") 
+	st.write("click the images below to get re-directed to articles / websites that helped me learn more about stocks") 
 	
 	st.markdown("[![Click me](app/static/medium.png)](https://shorturl.at/cdrxX)")
 
-	with st.echo():
-		st.markdown("[![Click me](app/static/fool.png)](https://shorturl.at/iRX47)")
 
-	with st.echo():
-		st.markdown("[![Click me](app/static/capitalist.png)](https://shorturl.at/nprxI)")
+	st.markdown("[![Click me](app/static/fool.png)](https://shorturl.at/iRX47)")
 
-	with st.echo():
-		st.markdown("[![Click me](app/static/invest.png)](https://shorturl.at/bilqt)")
+
+	st.markdown("[![Click me](app/static/capitalist.png)](https://shorturl.at/nprxI)")
+
+
+	st.markdown("[![Click me](app/static/invest.png)](https://shorturl.at/bilqt)")
 	
 	st.subheader("About Me")
 	img7 = Image.open('aboutme.jpg')

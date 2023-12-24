@@ -154,7 +154,7 @@ with tab1:
 	container5 = st.container(border=True)
 	
 	container5.write("There are hundreds of online brokerage websites in the world, however, here are a few that I recommend") 
-	conainer5.write("1. Fidelity") 
+	container5.write("1. Fidelity") 
 	container5.write("2. E*TRADE") 
 	container5.write("3. Interactive Brokers IBKR Lite")
 	container5.write("4. Charles Schwab") 

@@ -92,8 +92,7 @@ with tab1:
 
 	st.subheader("Why should you start investing in stocks?")
 	col7, col8 = st.columns(2, gap = "small") 
-	container2 = st.container(border=True)
-	col7.container2.write("3 Grand Benefits of Investing in Stocks Include:")
+	col7.write("3 Grand Benefits of Investing in Stocks Include:")
 	col7.write("1. Ability to achieve financial goals") 
 	col7.write("Investing early allows individual's to harness the power of compounding Compounding refers to the snowball effect where your investment returns generate additional returns over time. The earlier you start, the more time your money has to compound, potentially leading to significant long-term gains. Therefore, investing early is a key trategy for achieving financial goals such as buying a home, funding education, or enjoying a comfortable retirement. The growth potential of investments can assist in reaching these milestones more effectively than relying solely on savings.") 
 	col7.write("2. Ability to protect family from inflation")
@@ -101,8 +100,7 @@ with tab1:
 	col7.write("3. Earn a passive income") 
 	col7.write("Many companies pay dividends, or a portion of their profits, to investors. The majority make quarterly dividend payments, although some companies pay monthly dividends. Dividend income can help supplement an investor's paycheck or retirement income.")
 	
-	container3 = st.container(border=True)
-	col8.container3.write("Risks of investing in stock that you should keep at the back of your mind")
+	col8.write("Risks of investing in stock that you should keep at the back of your mind")
 	col8.write("1. Lack of guarenteed returns") 
 	col8.write("Unlike savings accounts or certain fixed-income investments, the returns on many investments are not guaranteed. Market conditions and the performance of individual assets can vary, leading to uncertainty in returns.")
 	col8.write("2. Market Volatility") 
@@ -111,7 +109,7 @@ with tab1:
 	col8.write("Successful investing often requires a good understanding of financial markets, economic factors, and individual securities. Keeping up with research and staying informed about market trends can be time-consuming and challenging for some investors.")
 
 	st.subheader("Useful resources to gain better understanding on stocks + what I learnt") 
-	## i am not 100% sure what I should write here so I will come back to this later
+	st.markdown("[![Foo](http://www.google.com.au/images/nav_logo7.png)](http://google.com.au/)")
 	
 	st.subheader("About Me")
 	img7 = Image.open('aboutme.jpg')

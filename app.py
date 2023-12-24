@@ -109,7 +109,7 @@ with tab1:
 	col8.write("Successful investing often requires a good understanding of financial markets, economic factors, and individual securities. Keeping up with research and staying informed about market trends can be time-consuming and challenging for some investors.")
 
 	st.subheader("Useful resources to gain better understanding on stocks + what I learnt") 
-	st.markdown("[![Foo](medium.png)](https://medium.com/@asady/how-to-analyze-stocks-an-introductory-guide-ed9266354c76)")
+	st.markdown("[![Click me](app/static/medium.png)](https://medium.com/@asady/how-to-analyze-stocks-an-introductory-guide-ed9266354c76)")
 	
 	st.subheader("About Me")
 	img7 = Image.open('aboutme.jpg')

@@ -109,6 +109,10 @@ with tab1:
 	col8.write("Successful investing often requires a good understanding of financial markets, economic factors, and individual securities. Keeping up with research and staying informed about market trends can be time-consuming and challenging for some investors.")
 
 	st.subheader("Useful resources to gain better understanding on stocks + what I learnt") 
+	st.markdown(
+   		'<img src=" app/static/medium.jpg" height="333" style="border: 5px solid orange">',
+   		unsafe_allow_html=True,
+	)
 	with st.echo():
 		st.markdown("[![Click me](app/static/medium.png)](https://shorturl.at/cdrxX)")
 

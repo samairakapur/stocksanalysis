@@ -123,7 +123,7 @@ with tab1:
 	container6.write("1.They don't know how/where to invest")
 	container6.write("AND/OR")
 	container6.write("2.They don't have the time to constantly keep a track of their stock indicies") 
-	container6.write("These are the 2 most prevalent valid problems that prevent the majoirty from investing, which is something that I aim to address later in the website") 
+	container6.write("These are the 2 most prevalent valid problems that prevent the majoirty from investing, which is something that I aim to address later in the website.") 
 
 	st.subheader("Useful resources for stock learning") 
 	col = st.columns(4) 
@@ -138,7 +138,7 @@ with tab1:
 	st.subheader("Which stocks to buy and Where") 
 	container3 = st.container(border=True)
 	container3.write("What stock has minimal time requirements, is low stake and yields high returns?") 
-	container3.write("If you are an individual who wants to invest but doesn't have the time to constantly keep track of the stock market, then I recommend you to invest in Exchange-Traded-Funds (ETFs)")
+	container3.write("If you are an individual who wants to invest but doesn't have the time to constantly keep track of the stock market, then I recommend you to invest in Exchange-Traded-Funds (ETFs).")
 	container3.write("ETFs are funds that trade on exchanges, generally tracking a specific index. When you invest in an ETF, you get a bundle of assets you can buy and sell during market hours—potentially lowering your risk and exposure, while helping to diversify your portfolio.")
 	container3.write("The benefits of ETFs include:") 
 	container3.write("- diversification") 
@@ -149,7 +149,7 @@ with tab1:
 	container4 = st.container(border=True)
 	
 	container4.write("Where to start investing?") 
-	container4.write("You should first start by checking the services offered by your bank. Some banks, like DBS, enable individuals to create their own portfolio and start investing from the app itself, which makes investing very easy") 
+	container4.write("You should first start by checking the services offered by your bank. Some banks, like DBS, enable individuals to create their own portfolio and start investing from the app itself, which makes investing very easy.") 
 	container4.write("If this service isn't available through your bank, then I recommend searching for online brokerage platforms") 
 	container4.write("An online brokerage is a platform that allows you to directly manage the buying and selling of your stocks and investment products. Rather than relying on a conventional broker to take action for you, you can use the online brokerage to buy and sell various types of investment products, including stocks, mutual funds, and ETFs. You can also monitor the stock activity and the success of your portfolio directly through the online platform.")
 	container4.write("All brokerage companies are different as they all offer different products, services, pricing for investing/trading on the website. Therefore, here are some considerations to keep in mind when looking for the brokerage platform for you:") 
@@ -162,7 +162,7 @@ with tab1:
 
 	container5 = st.container(border=True)
 	
-	container5.write("There are hundreds of online brokerage websites in the world, however, here are a few that I recommend") 
+	container5.write("There are hundreds of online brokerage websites in the world, however, here are a few that I recommend:") 
 	container5.write("1. Fidelity") 
 	container5.write("2. E*TRADE") 
 	container5.write("3. Interactive Brokers IBKR Lite")
@@ -212,10 +212,10 @@ with tab2:
 with tab3:
 	st.header("Displayed Moving Analysis (DMA)")
 	ctn11 = st.container(border=True)
-	ctn11.write("The graph below shows a few stocks that can be selected using a drop down menu. Beside that, you can see 2 sliders, with values from 0 to 2316. The numbers shown on the slider consists of daily data on the stocks from 2013 to 2023. You can choose a specific time-period to analyse a particular stock") 
-	ctn11.write("The graph consists of 4 graph lines, 2 Exponential Moving Average (EMA) and 2 Eimple Moving Average (SMA) for 50 days and 200 days. Additionally, the light blue graph line shown is the actual price of the stock in the market. (this is detailed in the legend located at the bottom of the graph)") 
-	ctn11.write("Whilst the graph below isn't currently using real-time data, (so it can't help you making immediate decisions about your investment), the graph help you analyse the volatility of the stock market as well as how to interpret graphs like these when extending your research on stocks") 
-	ctn11.write("It is also important to note that SMA and EMA are one of the key factors used to determine when to buy or sell a stock") 
+	ctn11.write("The graph below shows a few stocks that can be selected using a drop down menu. Beside that, you can see 2 sliders, with values from 0 to 2316. The numbers shown on the slider consists of daily data on the stocks from 2013 to 2023. The sliders enable you to choose a specific time-period to analyse a particular stock if you wish to explore a stock in more depth.") 
+	ctn11.write("The graph consists of 4 graph lines, 2 Exponential Moving Average (EMA) and 2 Eimple Moving Average (SMA) for 50 days and 200 days. Additionally, the light blue graph line shown is the actual price of the stock in the market. (This is detailed in the legend located at the bottom of the graph).") 
+	ctn11.write("Whilst the graph below isn't currently using real-time data, (so it can't help you making immediate decisions about your investment), the graph help you analyse the volatility of the stock market as well as how to interpret graphs like these when extending your research on stocks.") 
+	ctn11.write("It is also important to note that SMA and EMA are one of the key factors used to determine when to buy or sell a stock.") 
 	col1, col2 = st.columns(2)
 	with col1:
 		company = st.selectbox('Select the company',('Apple','Starbucks','Microsoft','Cisco','Qualcomm','Meta','Amazon','Tesla','Netflix','Advanced Micro Devices'),key='st2')

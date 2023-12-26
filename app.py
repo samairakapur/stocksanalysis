@@ -98,7 +98,9 @@ with tab1:
 
 	st.subheader("Why should you start investing in stocks?")
 	col7, col8 = st.columns(2, gap = "small") 
-	col7.write("3 Grand Benefits of Investing in Stocks Include:")
+	with col7:
+		ctn9 = st.container(border=True)
+		ctn9.write("3 Grand Benefits of Investing in Stocks Include:")
 	col7.write("1. Ability to achieve financial goals") 
 	col7.write("Investing early allows individual's to harness the power of compounding Compounding refers to the snowball effect where your investment returns generate additional returns over time. The earlier you start, the more time your money has to compound, potentially leading to significant long-term gains. Therefore, investing early is a key trategy for achieving financial goals such as buying a home, funding education, or enjoying a comfortable retirement. The growth potential of investments can assist in reaching these milestones more effectively than relying solely on savings.") 
 	col7.write("2. Ability to protect family from inflation")

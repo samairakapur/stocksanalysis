@@ -181,7 +181,7 @@ with tab2:
 	col[0].subheader('Statitical Analysis of Stock Price')
 	col[1].plotly_chart(fig)
 	with col[0]:
-		with st.container(border=True, key = 123): 
+		with st.container(border=True): 
 			st.markdown('''The graph displayed on the right shows certain key charatersitics of a certain stock, such as
    - its median price 
    - inter-quartile price 

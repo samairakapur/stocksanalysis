@@ -128,9 +128,9 @@ with tab1:
 	container2 = st.container(border=True)
 	container2.write("Click the images below to get re-directed to articles / websites that helped me learn more about stocks")
 	
-	col[0].markdown("[![Click me](app/static/medium.png)](https://shorturl.at/cdrxX)")
+	col[0].markdown("[![Click me](app/static/medium1.png)](https://shorturl.at/cdrxX)")
 	col[1].markdown("[![Click me](app/static/fool.png)](https://shorturl.at/iRX47)")
-	col[2].markdown("[![Click me](app/static/capitalist.png)](https://shorturl.at/nprxI)")
+	col[2].markdown("[![Click me](app/static/visual.png)](https://shorturl.at/nprxI)")
 	col[3].markdown("[![Click me](app/static/invest.png)](https://shorturl.at/bilqt)")
 
 	st.subheader("Which stocks to buy and Where") 

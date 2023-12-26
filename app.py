@@ -186,7 +186,7 @@ with tab2:
    - its median price 
    - inter-quartile price 
    - etc 
-   This can help investor's determine whether they should buy a stock at the price in the current market or wait until the price gets lower in order to achieve their maximum profitability ''')
+   \n This can help investor's determine whether they should buy a stock at the price in the current market or wait until the price gets lower in order to achieve their maximum profitability ''')
 			
 	
 	st.subheader('Co-relation Matrix')

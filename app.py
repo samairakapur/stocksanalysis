@@ -122,19 +122,14 @@ with tab1:
 	container6.write("These are the 2 most prevalent valid problems that prevent the majoirty from investing, which is something that I aim to address later in the website") 
 
 	st.subheader("Useful resources for stock learning") 
+	col = st.columns(4) 
 	container2 = st.container(border=True)
 	container2.write("Click the images below to get re-directed to articles / websites that helped me learn more about stocks")
 	
-	st.markdown("[![Click me](app/static/medium.png)](https://shorturl.at/cdrxX)")
-
-
-	st.markdown("[![Click me](app/static/fool.png)](https://shorturl.at/iRX47)")
-
-
-	st.markdown("[![Click me](app/static/capitalist.png)](https://shorturl.at/nprxI)")
-
-
-	st.markdown("[![Click me](app/static/invest.png)](https://shorturl.at/bilqt)")
+	col[0].markdown("[![Click me](app/static/medium.png)](https://shorturl.at/cdrxX)")
+	col[1].markdown("[![Click me](app/static/fool.png)](https://shorturl.at/iRX47)")
+	col[2].markdown("[![Click me](app/static/capitalist.png)](https://shorturl.at/nprxI)")
+	col[3].markdown("[![Click me](app/static/invest.png)](https://shorturl.at/bilqt)")
 
 	st.subheader("Which stocks to buy and Where") 
 	container3 = st.container(border=True)

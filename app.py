@@ -213,7 +213,7 @@ with tab3:
 	st.header("Displayed Moving Analysis (DMA)")
 	ctn11 = st.container(border=True)
 	ctn11.write("The graph below shows a few stocks that can be selected using a drop down menu. Beside that, you can see 2 sliders, with values from 0 to 2316. The numbers shown on the slider consists of daily data on the stocks from 2013 to 2023. You can choose a specific time-period to analyse a particular stock") 
-	ctn11.write("The graph consists of 4 graph lines, 2 Exponential Moving Average (EMA) and 2 Eimple Moving Average (SMA) for 50 days and 200 days, whilst the light blue graph shown is actual price of the stock in the market.") 
+	ctn11.write("The graph consists of 4 graph lines, 2 Exponential Moving Average (EMA) and 2 Eimple Moving Average (SMA) for 50 days and 200 days. Additionally, the light blue graph line shown is the actual price of the stock in the market. (this is detailed in the legend located at the bottom of the graph)") 
 	ctn11.write("Whilst the graph below isn't currently using real-time data, (so it can't help you making immediate decisions about your investment), the graph help you analyse the volatility of the stock market as well as how to interpret graphs like these when extending your research on stocks") 
 	ctn11.write("It is also important to note that SMA and EMA are one of the key factors used to determine when to buy or sell a stock") 
 	col1, col2 = st.columns(2)

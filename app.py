@@ -181,8 +181,13 @@ with tab2:
 	col[0].subheader('Statitical Analysis of Stock Price')
 	col[1].plotly_chart(fig)
 	with col[0]:
-		container8 = st.container(border=True)
-		container8.write("The graph displayed on the right shows certain key charatersitics of a certain stock, such sa its median price, inter-quartile price, etc. This can help investor's determine whether they should buy a stock at the price in the current market or wait until the price gets lower in order to achieve their maximum profitability")
+		with st.container(border=True, key = 123): 
+			st.markdown('''The graph displayed on the right shows certain key charatersitics of a certain stock, such as
+   - its median price 
+   - inter-quartile price 
+   - etc 
+   This can help investor's determine whether they should buy a stock at the price in the current market or wait until the price gets lower in order to achieve their maximum profitability ''')
+			
 	
 	st.subheader('Co-relation Matrix')
 	temp_corr_df = df[['Company', 'Close/Last', 'Date']]
@@ -218,7 +223,7 @@ with tab3:
 	aapl_dma = AAPL.loc[x:y,'Close/Last'].to_frame()
 	aapl_dma['SMA50'] = aapl_dma['Close/Last'].rolling(50).mean()
 	aapl_dma['SMA200'] = aapl_dma['Close/Last'].rolling(200).mean()
-	aapl_dma['EWA50'] = aapl_dma['Close/Last'].ewm(span=50).mean()
-	aapl_dma['EWA200'] = aapl_dma['Close/Last'].ewm(span=200).mean()
+	aapl_dma['EMA50'] = aapl_dma['Close/Last'].ewm(span=50).mean()
+	aapl_dma['EMA200'] = aapl_dma['Close/Last'].ewm(span=200).mean()
 	aapl_dma.dropna(inplace=True)
 	st.line_chart(aapl_dma,height=600)

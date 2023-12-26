@@ -107,8 +107,10 @@ with tab1:
 	col7.write("Stock market's returns often significantly outpace the rate of inflation. For example, the long-term inflation rate has run about 3.1% annually since 1913. That compares to a double-digit annual return from stocks. Stocks have been a good way to hedge against inflation.")
 	col7.write("3. Earn a passive income") 
 	col7.write("Many companies pay dividends, or a portion of their profits, to investors. The majority make quarterly dividend payments, although some companies pay monthly dividends. Dividend income can help supplement an investor's paycheck or retirement income.")
-	
-	col8.write("Risks of investing in stock that you should keep at the back of your mind")
+
+	with col8:
+		ctn10 = st.container(border=True)
+		ctn10.write("Risks involved with investing in stocks that you should keep in your mind:")
 	col8.write("1. Lack of guarenteed returns") 
 	col8.write("Unlike savings accounts or certain fixed-income investments, the returns on many investments are not guaranteed. Market conditions and the performance of individual assets can vary, leading to uncertainty in returns.")
 	col8.write("2. Market Volatility") 
@@ -126,7 +128,7 @@ with tab1:
 	st.subheader("Useful resources for stock learning") 
 	col = st.columns(4) 
 	container2 = st.container(border=True)
-	container2.write("Click the images below to get re-directed to articles / websites that helped me learn more about stocks")
+	container2.write("Click the images above to get re-directed to articles / websites that helped me learn more about stocks")
 	
 	col[0].markdown("[![Click me](app/static/medium1.png)](https://shorturl.at/cdrxX)")
 	col[1].markdown("[![Click me](app/static/fool1.png)](https://shorturl.at/iRX47)")
@@ -182,11 +184,12 @@ with tab2:
 	col[1].plotly_chart(fig)
 	with col[0]:
 		with st.container(border=True): 
-			st.markdown('''The graph displayed on the right shows certain key charatersitics of a certain stock, such as
+			st.markdown('''The graph displayed on the right is a box plot that shows key price characterisitcs of a certain stock such as:
    - its median price 
    - inter-quartile price 
-   - etc 
-   \n This can help investor's determine whether they should buy a stock at the price in the current market or wait until the price gets lower in order to achieve their maximum profitability ''')
+   - maximum price 
+   - minimum price 
+   \n All the values displayed on this box plot are evalutated from stock data from 2013 to 2023. The characteristics of a particular stock can be seen by placing your cursor on top of the box plot. This can help investor's determine whether they should buy a stock at the price in the current market or wait until the price gets lower in order to achieve their maximum profitability.  ''')
 			
 	
 	st.subheader('Co-relation Matrix')
@@ -206,7 +209,12 @@ with tab2:
 	container7.write("For example, if the stock market price of Apple goes down, the stock market price of Microsoft will also go down because they have a 0.98 correlation. However, if traders predict that within the next week the stock market price of an apple stock will skyrocket, the same will also occur for Microsoft. Therefore, with the knowledge of the correlation between these 2 stocks, an individaul can double the profits or even more!")
 	
 with tab3:
-	st.header("DMA Analysis")
+	st.header("Displayed Moving Analysis (DMA)")
+	ctn11 = st.container(border=True)
+	ctn11.write("The graph below shows a few stocks that can be selected using a drop down menu. Beside that, you can see 2 sliders, with values from 0 to 2316. The numbers shown on the slider consists of daily data on the stocks from 2013 to 2023. You can choose a specific time-period to analyse a particular stock") 
+	ctn.write("The graph consists of 4 graph lines, 2 Exponential Moving Average (EMA) and 2 Eimple Moving Average (SMA) for 50 days and 200 days, whilst the light blue graph shown is actual price of the stock in the market.") 
+	ctn11.write("Whilst the graph below isn't currently using real-time data, (so it can't help you making immediate decisions about your investment), the graph help you analyse the volatility of the stock market as well as how to interpret graphs like these when extending your research on stocks") 
+	ctn11.write("It is also important to note that SMA and EMA are one of the key factors used to determine when to buy or sell a stock") 
 	col1, col2 = st.columns(2)
 	with col1:
 		company = st.selectbox('Select the company',('Apple','Starbucks','Microsoft','Cisco','Qualcomm','Meta','Amazon','Tesla','Netflix','Advanced Micro Devices'),key='st2')
